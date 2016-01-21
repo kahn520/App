@@ -16,7 +16,6 @@ namespace TemplateClern
             string strFile = @"G:\APP\A000120140530A01KPBG.pptx";
             Application app = new Application();
             _Presentation ppt = app.Presentations.Open(strFile, MsoTriState.msoFalse, MsoTriState.msoFalse, MsoTriState.msoFalse);
-            ppt.SlideMaster.
             ppt.Save();
             ppt.Close();
             app.Quit();
