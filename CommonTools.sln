@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileScaner", "FileScaner\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateClern", "TemplateClern\TemplateClern.csproj", "{F3FDAB8D-C8EF-42BC-9A55-1B110C801A17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewAddIn", "ViewAddIn\ViewAddIn.csproj", "{F63EE28E-D346-4FF4-BF7D-673FA9925B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3FDAB8D-C8EF-42BC-9A55-1B110C801A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3FDAB8D-C8EF-42BC-9A55-1B110C801A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3FDAB8D-C8EF-42BC-9A55-1B110C801A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63EE28E-D346-4FF4-BF7D-673FA9925B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63EE28E-D346-4FF4-BF7D-673FA9925B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63EE28E-D346-4FF4-BF7D-673FA9925B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63EE28E-D346-4FF4-BF7D-673FA9925B0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
