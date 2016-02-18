@@ -31,6 +31,7 @@ namespace ViewAddIn
             Shape shp = Sel.ShapeRange[1];
             sb.AppendLine("名称:" + shp.Name);
             sb.AppendLine("AutoShapeType:" + Enum.GetName(typeof (Office.MsoAutoShapeType), shp.AutoShapeType));
+            sb.AppendLine("MsoShapeType:" + Enum.GetName(typeof(Office.MsoShapeType), shp.Type));
             try
             {
                 sb.AppendLine("PlaceHolderFormat:" + Enum.GetName(typeof(PowerPoint.PpPlaceholderType), shp.PlaceholderFormat.Type));
